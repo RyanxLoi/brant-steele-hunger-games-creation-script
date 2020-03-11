@@ -1,0 +1,292 @@
+1583928121943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0kLBq7K4niw0"
+1583928122369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583928122369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583928122369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583928124454	Marionette	INFO	Listening on port 40947
+1583928124558	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8397, Gecko_IOThread] WARNING: pipe error (85): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 8397, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583928129609	Marionette	INFO	Stopped listening on port 40947
+1583928758220	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VVldlLRRFX2m"
+1583928758713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583928758713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583928758713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583928761037	Marionette	INFO	Listening on port 39979
+1583928761153	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9789, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 9789, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583928777234	Marionette	INFO	Stopped listening on port 39979
+1583928786321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CC3xhsAJDbCI"
+1583928786858	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583928786859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583928786859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583928789553	Marionette	INFO	Listening on port 42931
+1583928789633	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn1.child1/context19' can't be sent as the connection is closed."
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 10318, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 10165, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 10165, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583928877033	Marionette	INFO	Stopped listening on port 42931
+1583928881850	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ycd8KW93mqo7"
+1583928882182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583928882183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583928882183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583928884196	Marionette	INFO	Listening on port 36453
+1583928884257	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 10591, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 10591, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583928921407	Marionette	INFO	Stopped listening on port 36453
+1583928970107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dfVD5ONiLwGc"
+1583928970569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583928970570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583928970570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583928973179	Marionette	INFO	Listening on port 38135
+1583928973221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 275: NS_ERROR_ILLEGAL_VALUE
+[Parent 11079, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583928993502	Marionette	INFO	Stopped listening on port 38135
+1583929107275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3UooIzs68teg"
+1583929107606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583929107606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583929107606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583929109701	Marionette	INFO	Listening on port 46371
+1583929109796	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221583875387847%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+1583929306665	Marionette	ERROR	[6442450945] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 453: TypeError: reply[0] is undefined
+[Parent 11766, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 11766, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583929311456	Marionette	INFO	Stopped listening on port 46371
+1583929477168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FL2Pc3OUXGJ7"
+1583929477505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583929477505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583929477506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583929479512	Marionette	INFO	Listening on port 37713
+1583929479576	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12991, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583929493302	Marionette	INFO	Stopped listening on port 37713
+1583929575417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FpglIzVpn9fW"
+1583929575784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583929575784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583929575784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583929577934	Marionette	INFO	Listening on port 32807
+1583929578028	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13524, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 13524, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583929599902	Marionette	INFO	Stopped listening on port 32807
+1583929613419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tw2kvS1itS76"
+1583929613770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583929613771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583929613772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583929615710	Marionette	INFO	Listening on port 36533
+1583929615730	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583929639948	Marionette	ERROR	[6442450945] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 453: TypeError: reply[0] is undefined
+[Parent 13927, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583929642695	Marionette	INFO	Stopped listening on port 36533
+1583929670212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z99zgXFIjoYL"
+1583929670566	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583929670566	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583929670566	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583929672524	Marionette	INFO	Listening on port 38275
+1583929672630	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583929970285	Marionette	ERROR	[6442450945] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 453: TypeError: reply[0] is undefined
+1583929981413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.83eE4EGOU3Qn"
+1583929981746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583929981747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583929981747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583929984761	Marionette	INFO	Listening on port 41721
+1583929984828	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 15076, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 14901, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 14901, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583930009608	Marionette	INFO	Stopped listening on port 41721
+1583930016743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.P80nQYRyvzgE"
+1583930017284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583930017284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583930017284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583930020173	Marionette	INFO	Listening on port 42099
+1583930020259	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14386, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 14386, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583930035770	Marionette	INFO	Stopped listening on port 38275
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221583875387847%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 15256, Gecko_IOThread] WARNING: pipe error (85): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583930480890	Marionette	INFO	Stopped listening on port 42099
+1583930624163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0huDI0t9UtTs"
+1583930624524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583930624524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583930624524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583930626570	Marionette	INFO	Listening on port 37709
+1583930626671	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 16314, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 16314, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 16130, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 16130, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583930741921	Marionette	INFO	Stopped listening on port 37709
+1583930746480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qvDre137HEpi"
+1583930746822	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583930746823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583930746823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583930748919	Marionette	INFO	Listening on port 37279
+1583930749007	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583930830294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XloGN2n2aF24"
+1583930830649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583930830649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583930830649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583930833335	Marionette	INFO	Listening on port 42415
+1583930833427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583930918518	Marionette	ERROR	[6442450945] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 453: TypeError: reply[0] is undefined
+[Parent 17009, Gecko_IOThread] WARNING: pipe error (87): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 17009, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583930922264	Marionette	INFO	Stopped listening on port 42415
+[Parent 16541, Gecko_IOThread] WARNING: pipe error (85): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 16541, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583930931107	Marionette	INFO	Stopped listening on port 37279
+1583930947776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hVnZaoYTcBbs"
+1583930948109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583930948109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583930948109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583930949962	Marionette	INFO	Listening on port 45881
+1583930950837	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221583875387847%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1583931852284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.a1N1hbljYVBA"
+1583931852622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583931852622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583931852622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583931854656	Marionette	INFO	Listening on port 33355
+1583931854705	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17614, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 17614, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583932472899	Marionette	INFO	Stopped listening on port 45881
+[Parent 18708, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 18708, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583932477767	Marionette	INFO	Stopped listening on port 33355
+1583932712117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NBtxp8J3EVZT"
+1583932712632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583932712632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583932712632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583932715768	Marionette	INFO	Listening on port 35143
+1583932715845	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221583875387847%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1583933376780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lLlAkxABv7wZ"
+1583933377092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583933377093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583933377093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583933379283	Marionette	INFO	Listening on port 35783
+1583933379292	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20614, Gecko_IOThread] WARNING: pipe error (102): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 20614, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583933389336	Marionette	INFO	Stopped listening on port 35783
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 19602, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 19602, Gecko_IOThread] WARNING: pipe error (85): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583933745468	Marionette	INFO	Stopped listening on port 35143
+1583933747678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.c2Ao5LtDAuMq"
+1583933747987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583933747987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583933747987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583933750256	Marionette	INFO	Listening on port 41689
+1583933750306	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 21141, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 21141, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1583933791521	Marionette	INFO	Stopped listening on port 41689
