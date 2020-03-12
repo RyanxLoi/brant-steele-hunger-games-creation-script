@@ -1,19 +1,19 @@
-Type,Fatal,Event
-Bloodbath,N,"As the buzzer sounds, (Player1) witnesses Sanad trip over a branch and die."
-Bloodbath,N,(Player1) wishes not to die by a tree branch first round.
-Day,N,(Player1) is pregnant. Congratulations!
-Day,N,"(Player1) is confronted by Sanad, and promptly stabs him with a tree branch."
-Night,N,(Player1) and (Player2) have an intimate cuddle session.
-Night,N,(Player1) prays to the giant rat that controls the universe.
-Feast,N,"(Player1) races to the Feast, and out of the corner of (his/her1) eye (he/she1) spots Sanad, who runs into a tree and dies on impact."
-Feast,N,(Player1) runs away.
-Bloodbath,Y,(Player1) and (Player2) battle to the death using wheelchairs. Both die.
-Bloodbath,Y,(Player1) dies of a sudden heart attack.
-Day,Y,(Player1) yeets (himself/herself1) off a cliff.
-Day,Y,(Player1) destroys (Player2) with facts and logic.
-Night,Y,(Player1) gets permabanned.
-Night,Y,(Player1) gobbles (Player2)'s toes.
-Feast,Y,(Player1) attempts to grab a supply but trips on a branch and dies.
-Feast,Y,(Player1) tried to steal from (Player2) but was bonked on the head.
-Arena,Y,(Player1) and (Player2) duel to the death and kill each other.
-Arena,Y,(Player1) strangles (Player2) to death
+Type,Fatal,NumberTrib,T1Killer,T1Killed,T2Killer,T2Killed,T3Killer,T3Killed,T4Killer,T4Killed,T5Killer,T5Killed,T6Killer,T6Killed,Event
+Bloodbath,N,1,-,-,-,-,-,-,-,-,-,-,-,-,"As the buzzer sounds, (Player1) witnesses Sanad trip over a branch and die."
+Bloodbath,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) wishes not to die by a tree branch first round.
+Day,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) is pregnant. Congratulations!
+Day,N,1,-,-,-,-,-,-,-,-,-,-,-,-,"(Player1) is confronted by Sanad, and promptly stabs him with a tree branch."
+Night,N,2,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) and (Player2) have an intimate cuddle session.
+Night,N,3,-,-,-,-,-,-,-,-,-,-,-,-,"(Player1), (Player2), and (Player3) sing songs together."
+Feast,N,1,-,-,-,-,-,-,-,-,-,-,-,-,"(Player1) races to the Feast, and out of the corner of (his/her1) eye (he/she1) spots Sanad, who runs into a tree and dies on impact."
+Feast,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) runs away.
+Bloodbath,Y,2,Y,Y,Y,Y,-,-,-,-,-,-,-,-,(Player1) and (Player2) battle to the death using wheelchairs. Both die.
+Bloodbath,Y,4,Y,N,Y,N,N,Y,N,Y,-,-,-,-,(Player1) and (Player2) battled against (Player3) and (Player4) and killed them.
+Day,Y,1,N,Y,-,-,-,-,-,-,-,-,-,-,(Player1) yeets (himself/herself1) off a cliff.
+Day,Y,2,Y,N,N,Y,-,-,-,-,-,-,-,-,(Player1) destroys (Player2) with facts and logic.
+Night,Y,2,N,Y,-,-,-,-,-,-,-,-,-,-,(Player1) gets permabanned.
+Night,Y,2,Y,N,N,Y,-,-,-,-,-,-,-,-,(Player1) gobbles (Player2)'s toes.
+Feast,Y,1,N,Y,-,-,-,-,-,-,-,-,-,-,(Player1) attempts to grab a supply but trips on a branch and dies.
+Feast,Y,2,N,Y,Y,N,-,-,-,-,-,-,-,-,(Player1) tried to steal from (Player2) but was bonked on the head.
+Arena,Y,3,Y,N,Y,N,N,Y,-,-,-,-,-,-,(Player1) and (Player2) doubled up on (Player3) and killed them. 
+Arena,Y,6,N,Y,N,Y,N,Y,N,Y,N,Y,N,Y,"(Player1), (Player2), (Player3), (Player4), (Player5), and (Player6) all get lit on fire."

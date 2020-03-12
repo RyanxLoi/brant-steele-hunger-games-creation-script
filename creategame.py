@@ -58,17 +58,15 @@ def create(numTributes):
 
     cast = []
 
-    #read csv
+    #read csv for cast
     with open('cast.csv', newline='') as castFile:
         castReader = csv.reader(castFile)
         for row in castReader:
             cast.append(row)
 
-    #The cast list can be shuffled to randomly pair tributes. Comment the line below to disable it.
-    random.shuffle(cast)
-
     #['2020/03/12 12:58:30 PM AST', 'Glimmer', 'Glimmer', 'She/Her', 'https://i.imgur.com/JgiO6zy.png', 'Player 2 performs an action']
 
+    #Create cast
     for i in range(1,numTributes+1):
         if i < 10:
             num = "0" + str(i)
@@ -93,12 +91,31 @@ def create(numTributes):
     sameNickBtn = driver.find_element_by_class_name("MakeEvictedNames")
     sameNickBtn.click()
 
-    submitBtn = driver.find_element_by_xpath("//input[@type='submit' and @value='Submit']").click()
+    submitBtn = driver.find_element_by_xpath("//input[@type='submit' and @value='Submit']")
     submitBtn.click()
 
+    #Create events
+
+    events = []
+
+    #read csv for events
+    with open('events.csv', newline='') as eventsFile:
+        eventsReader = csv.reader(eventsFile)
+        for row in eventsReader:
+            events.append(row)
+
+    modifyEvents = driver.find_element_by_link_text("Modify Events")
+    modifyEvents.click()
+
+    #['Type', 'Fatal', 'NumberTrib', 'T1Killer', 'T1Killed', 'T2Killer', 'T2Killed', 'T3Killer', 'T3Killed', 'T4Killer', 'T4Killed', 'T5Killer', 'T5Killed', 'T6Killer', 'T6Killed', 'Event']
+    #['Arena', 'Y', '6', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', '(Player1), (Player2), (Player3), (Player4), (Player5), and (Player6) all get lit on fire.']
+
+    driver.get("https://brantsteele.net/hungergames/AddEvent.php?type=bloodbath")
+
+
     #Generate game and get link
-    proceed = driver.find_element_by_link_text("Proceed.")
-    proceed.click()
+    #proceed = driver.find_element_by_link_text("Proceed.")
+    #proceed.click()
  
 def main():
     print("Input '1' for 24 tributes")
