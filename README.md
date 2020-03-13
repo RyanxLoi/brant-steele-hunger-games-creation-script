@@ -1,4 +1,4 @@
-# brant-steele-hunger-games-creation-script
+# The Brant Steele Hunger Games Generator Script
 Given two csv files, this script can quickly generate a simulated Hunger Game using Brant Steele's generator. 
 
 This script was specifically created for a Discord server, but can be modified as necessary to suit your needs. 
