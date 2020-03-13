@@ -9632,3 +9632,111 @@ console.warn: "Error while detaching the thread front: 'detach' request packet t
 [Parent 4445, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 [Parent 4445, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-KBykWI/firefox-67.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 1584118699138	Marionette	INFO	Stopped listening on port 40087
+1584119685166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6vDXfPedHKoP"
+1584119685838	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584119685839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584119685840	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584119689734	Marionette	INFO	Listening on port 38967
+1584119689883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584119693427	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1584120735359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2Ex1TH39Crrq"
+1584120736057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584120736058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584120736059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584120739833	Marionette	INFO	Listening on port 39851
+1584120739976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584120743387	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1584120745236	Marionette	INFO	Stopped listening on port 39851
+1584121011783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HKgRInJjCpQ7"
+1584121012429	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584121012430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584121012430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584121016399	Marionette	INFO	Listening on port 37277
+1584121016416	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584121019801	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Parent 17279, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-z7Op23/firefox-66.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1584121037633	Marionette	INFO	Stopped listening on port 37277
+1584122187934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.foOUAkjl2RyF"
+1584122188580	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584122188581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584122188581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584122193039	Marionette	INFO	Listening on port 45981
+1584122193078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584122197221	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 15995, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-z7Op23/firefox-66.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 15995, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-z7Op23/firefox-66.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1584123288213	Marionette	INFO	Stopped listening on port 38967
+[Parent 18339, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-z7Op23/firefox-66.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 18339, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-z7Op23/firefox-66.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1584123289410	Marionette	INFO	Stopped listening on port 45981
+1584128919036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.51W5N02icVnf"
+1584128919681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584128919682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584128919682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584128923632	Marionette	INFO	Listening on port 37367
+1584128923678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584128927998	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1584133340120	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fo9swFsCLAnw"
+1584133340771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584133340772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584133340772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584133344695	Marionette	INFO	Listening on port 36771
+1584133344790	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584133348489	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead

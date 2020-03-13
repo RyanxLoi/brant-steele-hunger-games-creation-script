@@ -14,23 +14,42 @@ url = "https://brantsteele.net/hungergames/disclaimer.php"
 
 def create(numTributes):
 
+    #############################################################
+    #
+    #This script is currently supported on Firefox and Google Chrome. Select your preferred browser and disable the other one by #commenting out the code of the other browser below before the next line of hashtags. From my personal experience, Firefox #performs much faster than Chrome but Chrome is still an option.
+    #
+    ##############################################################
+    
     #Create firefox profile with preferences to disable loading images
     #Disabling images allows the page to load faster
     firefox_profile = webdriver.FirefoxProfile()
     firefox_profile.set_preference('permissions.default.image', 2)
     firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
-
-    #create driver
+    #create Firefox Driver
     driver = webdriver.Firefox(firefox_profile=firefox_profile)
+
+
+    #Create chrome profile with preferences to disable loading images
+    #Disabling images allows the page to load faster
+    #chrome_options = webdriver.ChromeOptions()
+    #prefs = {"profile.managed_default_content_settings.images": 2}
+    #chrome_options.add_experimental_option("prefs", prefs)
+    #create Chrome driver
+    #driver = webdriver.Chrome("/usr/local/share/chromedriver",chrome_options=chrome_options)
+
     driver.implicitly_wait(20)
     driver.maximize_window()
+
+    ##############################################################################################
 
     #Start process
     driver.get(url)
 
+    #Agree to TOC
     agreeLink = driver.find_element_by_link_text("I am 13 years or older. I have read and understand these terms.")
     agreeLink.click()
 
+    #Change cast size if user has selected 36 or 48 tributes
     if numTributes == 36 or numTributes == 48:
         adjustSize = driver.find_element_by_link_text("Adjust Size")
         adjustSize.click()
@@ -41,6 +60,7 @@ def create(numTributes):
             newSize = driver.find_element_by_link_text("Use 48 tributes.")
             newSize.click()
 
+    #Begin creating the game
     hoverLink = driver.find_element_by_link_text("Simulate")
     hover = ActionChains(driver).move_to_element(hoverLink)
     hover.perform()
@@ -51,10 +71,11 @@ def create(numTributes):
 
     driver.implicitly_wait(10)
 
+    #For send_keys, you may replace the content inside the quotation marks with another name for your season and another url for your logo
     seasonName = driver.find_element_by_name("seasonname")
-    seasonName.send_keys("uOttawa Hunger Games")
+    seasonName.send_keys("Hunger Games")
     logoUrl = driver.find_element_by_name("logourl")
-    logoUrl.send_keys("https://i.imgur.com/JgiO6zy.png")
+    logoUrl.send_keys("https://upload.wikimedia.org/wikipedia/en/d/dc/The_Hunger_Games.jpg")
 
     cast = []
 
@@ -64,7 +85,7 @@ def create(numTributes):
         for row in castReader:
             cast.append(row)
 
-    #['2020/03/12 12:58:30 PM AST', 'Glimmer', 'Glimmer', 'She/Her', 'https://i.imgur.com/JgiO6zy.png', 'Player 2 performs an action']
+    #[Timestamp,Name,Discord Name,Pronouns,Profile pic link,Events]
 
     #Create cast
     for i in range(1,numTributes+1):
@@ -106,16 +127,13 @@ def create(numTributes):
 
     modifyEvents = driver.find_element_by_link_text("Modify Events")
     modifyEvents.click()
-
-    #['Type', 'Fatal', 'NumberTrib', 'T1Killer', 'T1Killed', 'T2Killer', 'T2Killed', 'T3Killer', 'T3Killed', 'T4Killer', 'T4Killed', 'T5Killer', 'T5Killed', 'T6Killer', 'T6Killed', 'Event']
-    #['Arena', 'Y', '6', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', '(Player1), (Player2), (Player3), (Player4), (Player5), and (Player6) all get lit on fire.']
+    
+    #['Type', 'Fatal', 'NumberTrib', 'T1Killer', 'T2Killer', 'T3Killer', 'T4Killer', 'T5Killer', 'T6Killer', 'T1Killed', 'T2Killed', 'T3Killed', 'T4Killed', 'T5Killed', 'T6Killed', 'Event']
 
     for j in range(1,len(events)):
         eventType = events[j][0].lower()
         killerCol = 3
         killedCol = 9
-        #Bloodbath events
-        #The outer if condition checks for the type of event. The inner if condition checks if the event is fatal.
         
         if events[j][1] == "N":
             driver.get("https://brantsteele.net/hungergames/AddEvent.php?type="+eventType)
@@ -158,17 +176,27 @@ def main():
     print("Input '2' for 36 tributes")
     print("Input '3' for 48 tributes")
 
-    numTributes = int(input("Select number of tributes: "))
+    numTributes = 0
+    validOption = False
 
-    #Assume correct inputs for now. We'll add exception handling later.
-    if numTributes == 1:
-        numTributes = 24
-    elif numTributes == 2:
-        numTributes = 36
-    elif numTributes == 3:
-        numTributes = 48
-    else:
-        print("Incorrect input.")
+    while numTributes < 1 or numTributes > 3 and validOption == False:
+        try:
+            numTributes = int(input("Select number of tributes: "))
+            if numTributes == 1:
+                numTributes = 24
+                validOption = True
+            elif numTributes == 2:
+                numTributes = 36
+                validOption = True
+            elif numTributes == 3:
+                numTributes = 48
+                validOption = True
+            if validOption == True:
+                break
+            else:
+                print("Invalid input. Input 1, 2 or 3.")
+        except ValueError:
+            print("Invalid input. Input 1, 2 or 3.")
         
     create(numTributes)
 
