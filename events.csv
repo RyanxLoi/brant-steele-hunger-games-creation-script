@@ -1,19 +1,17 @@
-Type,Fatal,NumberTrib,T1Killer,T1Killed,T2Killer,T2Killed,T3Killer,T3Killed,T4Killer,T4Killed,T5Killer,T5Killed,T6Killer,T6Killed,Event
+Type,Fatal,NumberTrib,T1Killer,T2Killer,T3Killer,T4Killer,T5Killer,T6Killer,T1Killed,T2Killed,T3Killed,T4Killed,T5Killed,T6Killed,Event
 Bloodbath,N,1,-,-,-,-,-,-,-,-,-,-,-,-,"As the buzzer sounds, (Player1) witnesses Sanad trip over a branch and die."
-Bloodbath,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) wishes not to die by a tree branch first round.
+Bloodbath,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) wishes 0t to die by a tree branch first round.
 Day,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) is pregnant. Congratulations!
 Day,N,1,-,-,-,-,-,-,-,-,-,-,-,-,"(Player1) is confronted by Sanad, and promptly stabs him with a tree branch."
 Night,N,2,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) and (Player2) have an intimate cuddle session.
 Night,N,3,-,-,-,-,-,-,-,-,-,-,-,-,"(Player1), (Player2), and (Player3) sing songs together."
 Feast,N,1,-,-,-,-,-,-,-,-,-,-,-,-,"(Player1) races to the Feast, and out of the corner of (his/her1) eye (he/she1) spots Sanad, who runs into a tree and dies on impact."
 Feast,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) runs away.
-Bloodbath,Y,2,Y,Y,Y,Y,-,-,-,-,-,-,-,-,(Player1) and (Player2) battle to the death using wheelchairs. Both die.
-Bloodbath,Y,4,Y,N,Y,N,N,Y,N,Y,-,-,-,-,(Player1) and (Player2) battled against (Player3) and (Player4) and killed them.
-Day,Y,1,N,Y,-,-,-,-,-,-,-,-,-,-,(Player1) yeets (himself/herself1) off a cliff.
-Day,Y,2,Y,N,N,Y,-,-,-,-,-,-,-,-,(Player1) destroys (Player2) with facts and logic.
-Night,Y,2,N,Y,-,-,-,-,-,-,-,-,-,-,(Player1) gets permabanned.
-Night,Y,2,Y,N,N,Y,-,-,-,-,-,-,-,-,(Player1) gobbles (Player2)'s toes.
-Feast,Y,1,N,Y,-,-,-,-,-,-,-,-,-,-,(Player1) attempts to grab a supply but trips on a branch and dies.
-Feast,Y,2,N,Y,Y,N,-,-,-,-,-,-,-,-,(Player1) tried to steal from (Player2) but was bonked on the head.
-Arena,Y,3,Y,N,Y,N,N,Y,-,-,-,-,-,-,(Player1) and (Player2) doubled up on (Player3) and killed them. 
-Arena,Y,6,N,Y,N,Y,N,Y,N,Y,N,Y,N,Y,"(Player1), (Player2), (Player3), (Player4), (Player5), and (Player6) all get lit on fire."
+Bloodbath,Y,2,1,1,-,-,-,-,1,1,-,-,-,-,(Player1) and (Player2) battle to the death using wheelchairs. Both die.
+Bloodbath,Y,4,1,1,0,0,-,-,0,0,1,1,-,-,(Player1) and (Player2) battled against (Player3) and (Player4) and killed them.
+Day,Y,1,0,-,-,-,-,-,1,-,-,-,-,-,(Player1) yeets (himself/herself1) off a cliff.
+Day,Y,2,1,0,-,-,-,-,0,1,-,-,-,-,(Player1) destroys (Player2) with facts and logic.
+Night,Y,2,0,-,-,-,-,-,1,-,-,-,-,-,(Player1) gets permabanned.
+Night,Y,2,1,0,-,-,-,-,0,1,-,-,-,-,(Player1) gobbles (Player2)'s toes.
+Feast,Y,1,0,-,-,-,-,-,1,-,-,-,-,-,(Player1) attempts to grab a supply but trips on a branch and dies.
+Feast,Y,2,0,1,-,-,-,-,1,0,-,-,-,-,(Player1) tried to steal from (Player2) but was bonked on the head.

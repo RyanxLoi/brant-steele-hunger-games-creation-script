@@ -110,12 +110,48 @@ def create(numTributes):
     #['Type', 'Fatal', 'NumberTrib', 'T1Killer', 'T1Killed', 'T2Killer', 'T2Killed', 'T3Killer', 'T3Killed', 'T4Killer', 'T4Killed', 'T5Killer', 'T5Killed', 'T6Killer', 'T6Killed', 'Event']
     #['Arena', 'Y', '6', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', 'N', 'Y', '(Player1), (Player2), (Player3), (Player4), (Player5), and (Player6) all get lit on fire.']
 
-    driver.get("https://brantsteele.net/hungergames/AddEvent.php?type=bloodbath")
+    for j in range(1,len(events)):
+        eventType = events[j][0].lower()
+        killerCol = 3
+        killedCol = 9
+        #Bloodbath events
+        #The outer if condition checks for the type of event. The inner if condition checks if the event is fatal.
+        
+        if events[j][1] == "N":
+            driver.get("https://brantsteele.net/hungergames/AddEvent.php?type="+eventType)
+            numTribsSelect = Select(driver.find_element_by_name("EventNumber"))
+            numTribsEvent = events[j][2]
+            numTribsSelect.select_by_value(str(numTribsEvent))
+            driver.find_element_by_name("EventText").send_keys(events[j][15])
+            driver.find_element_by_xpath("//input[@type='submit' and @value='Submit']").click()
+        elif events[j][1] == "Y":
+            driver.get("https://brantsteele.net/hungergames/AddEvent.php?type="+eventType+"fatal")
+            numTribsSelect = Select(driver.find_element_by_name("EventNumber"))
+            numTribsEvent = events[j][2]
+            numTribsSelect.select_by_value(str(numTribsEvent))
 
+            for trib in range(1,(int(numTribsEvent)+1)):
+                if events[j][killerCol] != "-" or events[j][killedCol] != "-":
+                    killerSelect = Select(driver.find_element_by_name("killer"+str(trib)))
+                    killedSelect = Select(driver.find_element_by_name("killed"+str(trib)))
+                    killerSelect.select_by_value(events[j][killerCol])
+                    killedSelect.select_by_value(events[j][killedCol])
+                    killerCol += 1
+                    killedCol += 1
+                else:
+                    continue
+            
+            driver.find_element_by_name("EventText").send_keys(events[j][15])
+            driver.find_element_by_xpath("//input[@type='submit' and @value='Submit']").click()
+
+        driver.get("https://brantsteele.net/hungergames/ModifyEvents.php")
 
     #Generate game and get link
-    #proceed = driver.find_element_by_link_text("Proceed.")
-    #proceed.click()
+    driver.find_element_by_link_text("Save").click()
+    driver.find_element_by_link_text("Yes").click()
+
+    print("Game saved successfully! Obtain the url to the game provided by the simulator and enjoy! :)")
+    
  
 def main():
     print("Input '1' for 24 tributes")
