@@ -7,9 +7,9 @@ This script was specifically created for a Discord server, but can be modified a
 
 In order to use this script, you'll need:
 
-* FireFox or Google Chrome [Download Google Chrome here](https://www.google.com/chrome/) OR [Download Firefox here](https://www.mozilla.org/en-CA/firefox/)
-* The web driver for your preferred browser above [ChromeDriver for Google Chrome](https://chromedriver.chromium.org/) OR [geckodriver for FireFox](https://github.com/mozilla/geckodriver/releases)
-* Selenium WebDriver [Download here](https://www.selenium.dev/)
+* FireFox or Google Chrome: [Download Google Chrome here](https://www.google.com/chrome/) OR [Download Firefox here](https://www.mozilla.org/en-CA/firefox/)
+* The web driver for your preferred browser above: [ChromeDriver for Google Chrome](https://chromedriver.chromium.org/) OR [geckodriver for FireFox](https://github.com/mozilla/geckodriver/releases)
+* Selenium WebDriver: [Download here](https://www.selenium.dev/)
 
 Ensure that your browser drivers are placed in your PATH in order for the script to work. 
 
