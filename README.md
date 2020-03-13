@@ -91,7 +91,7 @@ This is the script itself. The follow modifications can be made to the script:
 You have the option to create the game using either Firefox or Google Chrome. To select one of the browsers, comment out the code of the browser that you are not using in the code block below in the file. 
 
 ```
-#Create firefox profile with preferences to disable loading images
+    #Create firefox profile with preferences to disable loading images
     #Disabling images allows the page to load faster
     firefox_profile = webdriver.FirefoxProfile()
     firefox_profile.set_preference('permissions.default.image', 2)
