@@ -106,8 +106,10 @@ You have the option to create the game using either Firefox or Google Chrome. To
     prefs = {"profile.managed_default_content_settings.images": 2}
     chrome_options.add_experimental_option("prefs", prefs)
     #create Chrome driver
-    driver = webdriver.Chrome("/usr/local/share/chromedriver",chrome_options=chrome_options)
+    driver = webdriver.Chrome("/path/to/chromedriver",chrome_options=chrome_options)
 ```
+
+In the line ```driver = webdriver.Chrome("/path/to/chromedriver",chrome_options=chrome_options)```, replace the /path/to with the actual path of your chromedriver.
 
 ### Season Name and Season Url
 

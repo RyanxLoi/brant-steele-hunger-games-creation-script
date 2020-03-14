@@ -31,11 +31,12 @@ def create(numTributes):
 
     #Create chrome profile with preferences to disable loading images
     #Disabling images allows the page to load faster
-    #chrome_options = webdriver.ChromeOptions()
-    #prefs = {"profile.managed_default_content_settings.images": 2}
-    #chrome_options.add_experimental_option("prefs", prefs)
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_experimental_option("detach", True)
+    prefs = {"profile.managed_default_content_settings.images": 2}
+    chrome_options.add_experimental_option("prefs", prefs)
     #create Chrome driver
-    #driver = webdriver.Chrome("/usr/local/share/chromedriver",chrome_options=chrome_options)
+    driver = webdriver.Chrome("/path/to/chromedriver",chrome_options=chrome_options)
 
     driver.implicitly_wait(20)
     driver.maximize_window()
