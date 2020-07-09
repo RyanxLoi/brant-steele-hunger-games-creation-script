@@ -1,0 +1,12 @@
+Type,Fatal,NumberTrib,T1Killer,T2Killer,T3Killer,T4Killer,T5Killer,T6Killer,T1Killed,T2Killed,T3Killed,T4Killed,T5Killed,T6Killed,Event
+Day,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) is pregnant. Congratulations!
+Feast,N,1,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) runs away.
+Bloodbath,Y,2,1,1,-,-,-,-,1,1,-,-,-,-,(Player1) and (Player2) battle to the death using wheelchairs. Both die.
+Bloodbath,Y,4,1,1,0,0,-,-,0,0,1,1,-,-,(Player1) and (Player2) battled against (Player3) and (Player4) and killed them.
+Day,Y,1,0,-,-,-,-,-,1,-,-,-,-,-,(Player1) yeets (himself/herself1) off a cliff.
+Night,N,2,-,-,-,-,-,-,-,-,-,-,-,-,(Player1) and (Player2) have an intimate cuddle session.
+Day,Y,1,0,-,-,-,-,-,1,-,-,-,-,-,(Player1) has had enough with the game and decides to call it quits.
+Day,Y,1,0,-,-,-,-,-,1,-,-,-,-,-,(Player1) fell off the world.
+Day,Y,2,1,0,-,-,-,-,0,1,-,-,-,-,(Player1) punched (Player2) harder than drywall.
+Night,Y,1,0,-,-,-,-,-,1,-,-,-,-,-,(Player1) dies of alchohol poisoning.
+Night,Y,1,0,-,-,-,-,-,1,-,-,-,-,-,"(Player1) gets lost in Narnia, never to return."
