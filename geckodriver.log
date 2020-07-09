@@ -1556,3 +1556,6 @@ console.error: BroadcastService:
 JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://brantsteele.net/hungergames/jquery/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 15543, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-z7Op23/firefox-66.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 15543, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-z7Op23/firefox-66.0.2+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1594314259571	Marionette	INFO	Stopped listening on port 35849

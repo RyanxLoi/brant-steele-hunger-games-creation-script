@@ -14,11 +14,9 @@ url = "https://brantsteele.net/hungergames/disclaimer.php"
 
 def create(numTributes):
 
-    #############################################################
-    #
-    #This script is currently supported on Firefox and Google Chrome. Select your preferred browser and disable the other one by #commenting out the code of the other browser below before the next line of hashtags. From my personal experience, Firefox #performs much faster than Chrome but Chrome is still an option.
-    #
-    ##############################################################
+    '''
+    This script is currently supported on Firefox and Google Chrome. Select your preferred browser and disable the other one by surrounding the body of code with three single quotation marks. From my personal experience, Firefox performs much faster than Chrome but Chrome is still an option.
+    '''
     
     #Create firefox profile with preferences to disable loading images
     #Disabling images allows the page to load faster
@@ -30,15 +28,17 @@ def create(numTributes):
     #create Firefox Driver
     driver = webdriver.Firefox(firefox_profile=firefox_profile,options=options)
 
-
+    '''
     #Create chrome profile with preferences to disable loading images
     #Disabling images allows the page to load faster
-    #chrome_options = webdriver.ChromeOptions()
-    #chrome_options.add_experimental_option("detach", True)
-    #prefs = {"profile.managed_default_content_settings.images": 2}
-    #chrome_options.add_experimental_option("prefs", prefs)
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_experimental_option("detach", True)
+    prefs = {"profile.managed_default_content_settings.images": 2}
+    chrome_options.add_experimental_option("prefs", prefs)
     #create Chrome driver
-    #driver = webdriver.Chrome("/path/to/chromedriver",chrome_options=chrome_options)
+    driver = webdriver.Chrome("/path/to/chromedriver",chrome_options=chrome_options)
+    '''
 
     driver.implicitly_wait(20)
     driver.maximize_window()
